@@ -9,7 +9,6 @@ from sklearn import metrics
 import math
 from HyperParameter import *
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 starttime = time.time()
 datafolder = os.path.join(dataset, "Data")
