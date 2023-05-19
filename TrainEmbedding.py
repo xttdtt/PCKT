@@ -124,7 +124,7 @@ train_op = optimizer.minimize(loss)
 
 # set log file to store the running results
 logfile = os.path.join(modelfolder, "trainEmbedding.txt")
-# clear log file content before each run
+# delete log file content before each run
 f = open(logfile, "wb+")
 f.truncate()
 logging.basicConfig(filename=logfile, level="DEBUG")
