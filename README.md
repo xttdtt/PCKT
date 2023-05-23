@@ -65,7 +65,7 @@ Here is the whole process of running the code, please run the code in this order
   You can use the following command to install the package:
 
    ```shell
-pip lnstall tensorflow==1.15.0 pandas numpy scipy sklearn
+pip install tensorflow==1.15.0 pandas numpy scipy sklearn
    ```
 
    The version of python we are using is 3.7.12
